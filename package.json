@@ -1,0 +1,21 @@
+{
+  "name": "quick-rail-book",
+  "version": "1.0.0",
+  "description": "for reservation automation",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "main": "index.js",
+  "author": "Sharanam Chotai",
+  "license": "MIT",
+  "dependencies": {
+    "@cliqz/adblocker-playwright": "^1.26.6",
+    "@inquirer/prompts": "^3.0.0",
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "playwright": "^1.36.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
